@@ -1,2 +1,3 @@
 {"ts":1378298288287,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"1ik415-laborationer\n===================\n\nLaborationer i kursen 1ik415\n"]],"start1":0,"start2":0,"length1":0,"length2":70}]],"length":70}
 {"contributors":[],"silentsave":false,"ts":1378298377956,"patch":[[{"diffs":[[0," 1ik415\n"],[1,"L01 Struktur och innehåll"]],"start1":62,"start2":62,"length1":8,"length2":33}]],"length":95,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378405822164,"patch":[[{"diffs":[[0," 1ik415\n"],[1,"\n"],[0,"L01 Stru"]],"start1":62,"start2":62,"length1":16,"length2":17},{"diffs":[[0,"innehåll"],[1,"\n\nTest nummer två för L01 Struktur och innehåll\n"]],"start1":88,"start2":88,"length1":8,"length2":56}]],"length":144,"saved":false}
