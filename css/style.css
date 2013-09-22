@@ -22,10 +22,12 @@
 
 
 #navigation {
-             width: 198px;
+             width: 200px;
              float: left;
-             border: 1px solid black;
-             background-color: #9FA4BF;
+             background-color: #FFF;
+             margin-left: 0;
+             padding-left: 0;
+             list-style-type: none;
 }
 
 #content {
@@ -44,6 +46,33 @@
         clear: both;
 }
 
+ul#navigation a#current {
+        background: #913EA6;
+        color: #000;
+}
+
+ul#navigation a{
+        display: block;
+        text-decoration: none;
+        background: #3E2C62;
+        color: #FFF;
+        padding: .2em .5em;
+        border-bottom: 1px solid #FFF;
+        width: 11.5em;
+}
+
+ul#navigation a:hover{
+        background: #9FA4BF;
+        color: #000;
+}
+
+
+
+/*a {
+    padding: 1em  0;
+    position:relative;
+}*/
+
 a:link {
         color: #6011F9;
 }
@@ -54,7 +83,8 @@ a:visited {
 
 a:hover, a:active {
         color:#FFF;
-        background: #3E2C62;
+        background: #9FA4BF;
+        /*background: #3E2C62;*/
 }
 
 
