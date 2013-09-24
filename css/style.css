@@ -40,6 +40,7 @@
 #footer {
          text-align: center; 
          background-color: #B3D2E5;
+         font-family: "Carme", "Arial", sans-serif;
 }
 
 .clear {
@@ -58,7 +59,8 @@ ul#navigation a{
         color: #FFF;
         padding: .2em .5em;
         border-bottom: 1px solid #FFF;
-        width: 11.5em;
+        width: 13em;
+        font-family: "Carme", "Arial", sans-serif;
 }
 
 ul#navigation a:hover{
@@ -87,6 +89,53 @@ a:hover, a:active {
         /*background: #3E2C62;*/
 }
 
+p {
+    font-family: "Carme", "Arial", sans-serif;
+}
 
+h1 {
+    font-family: "ABeeZee", "Arial", sans-serif;
+}
 
+h2 {
+    font-family: "ABeeZee", "Arial", sans-serif;
+}
+
+h3 {
+    font-family: "ABeeZee", "Arial", sans-serif;
+}
+
+ol {
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+dt {
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+dd {
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+dd a {
+    font-family: "Carme", "Arial", sans-serif;
+    font-size: 90%;
+}
+
+ul li {
+    font-family: "Carme", "Arial", sans-serif;
+    font-size: 90%;
+}
+
+tr {
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+td {
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+form {
+    font-family: "Carme", "Arial", sans-serif;
+}
 
