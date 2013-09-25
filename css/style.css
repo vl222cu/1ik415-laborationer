@@ -4,8 +4,10 @@
   Background footer: #9CBBCE #B6D3E5 #B3D2E5 #C6CFFF #D4DBFF
   Text-color: #FFF 
   Background hover: #913EA6
+  color: #3E2C62 (lila)
 */
 
+/*Layout*/
 #container 
 {
     width: 958px;
@@ -16,15 +18,14 @@
 
 #header 
 {
-    width: 956px;
-    border: 1px solid black;
-    background-color: #D8C4FF;
+    width: 938px;
+    height: 100px;
+    padding: 10px;
+    color: #FFF;
     background-image: url(../pics/vivislogo.png);
     background-repeat: no-repeat;
     background-position: top right;
-
-    
-    
+    background-size: 958px 120px;
 }
 
 #navigation 
@@ -48,7 +49,8 @@
 #footer 
 {
     text-align: center; 
-    background-color: #B3D2E5;
+    background: #474A4A;
+    color: #FFF;
     font-family: "Carme", "Arial", sans-serif;
 }
 
@@ -60,26 +62,26 @@
 /*markerar aktivt fält*/
 ul#navigation a#current 
 {
-    background: #913EA6;
-    color: #000;
+    background: #676B6B;
+    color: #FFF;
 }
 
 ul#navigation a
 {
     display: block;
     text-decoration: none;
-    background: #3E2C62;
+    background: #474A4A;
     color: #FFF;
-    padding: .2em .5em;
-    border-bottom: 1px solid #FFF;
-    width: 13em;
+    padding: 10px 15px;
+    border-bottom: 2px solid #FFF;
+    width: 170px;
     font-family: "Carme", "Arial", sans-serif;
 }
 
 ul#navigation a:hover
 {
-    background: #9FA4BF;
-    color: #000;
+    background: #989E9E;
+    color: #FFF;
 }
 
 /*a {
