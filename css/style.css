@@ -6,136 +6,233 @@
   Background hover: #913EA6
 */
 
-#container {
-            width: 958px;
-            margin: 0 auto;
-            background-attachment: fixed;
-            border: 1px solid black;
+#container 
+{
+    width: 958px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    border: 1px solid black;
 }
+
+#header 
+{
+    width: 956px;
+    border: 1px solid black;
+    background-color: #D8C4FF;
+    background-image: url(../pics/vivislogo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
 
     
-#header {
-         width: 956px;
-         border: 1px solid black;
-         background-color: #D8C4FF;
+    
 }
 
-
-#navigation {
-             width: 200px;
-             float: left;
-             background-color: #FFF;
-             margin-left: 0;
-             padding-left: 0;
-             list-style-type: none;
+#navigation 
+{
+    width: 200px;
+    float: left;
+    background-color: #FFF;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
 }
 
-#content {
-          width: 736px;
-          float: right;
-          padding: 10px;
-          border: 1px solid black;
+#content 
+{
+    width: 736px;
+    float: right;
+    padding: 10px;
+    border: 1px solid black;
 }
 
-#footer {
-         text-align: center; 
-         background-color: #B3D2E5;
-         font-family: "Carme", "Arial", sans-serif;
+#footer 
+{
+    text-align: center; 
+    background-color: #B3D2E5;
+    font-family: "Carme", "Arial", sans-serif;
 }
 
-.clear {
-        clear: both;
+.clear 
+{
+    clear: both;
 }
 
-ul#navigation a#current {
-        background: #913EA6;
-        color: #000;
+/*markerar aktivt fält*/
+ul#navigation a#current 
+{
+    background: #913EA6;
+    color: #000;
 }
 
-ul#navigation a{
-        display: block;
-        text-decoration: none;
-        background: #3E2C62;
-        color: #FFF;
-        padding: .2em .5em;
-        border-bottom: 1px solid #FFF;
-        width: 13em;
-        font-family: "Carme", "Arial", sans-serif;
+ul#navigation a
+{
+    display: block;
+    text-decoration: none;
+    background: #3E2C62;
+    color: #FFF;
+    padding: .2em .5em;
+    border-bottom: 1px solid #FFF;
+    width: 13em;
+    font-family: "Carme", "Arial", sans-serif;
 }
 
-ul#navigation a:hover{
-        background: #9FA4BF;
-        color: #000;
+ul#navigation a:hover
+{
+    background: #9FA4BF;
+    color: #000;
 }
-
-
 
 /*a {
     padding: 1em  0;
     position:relative;
 }*/
 
-a:link {
-        color: #6011F9;
+a:link 
+{
+    color: #6011F9;
 }
 
-a:visited {
-        color: #2D1164;
+a:visited 
+{
+    color: #2D1164;
 }
 
-a:hover, a:active {
-        color:#FFF;
-        background: #9FA4BF;
-        /*background: #3E2C62;*/
+a:hover, a:active 
+{
+    color:#FFF;
+    background: #9FA4BF;
+    /*background: #3E2C62;*/
 }
 
-p {
+/*typografi*/
+div > p 
+{
     font-family: "Carme", "Arial", sans-serif;
 }
 
-h1 {
+h1 + p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h2 + p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h2 + p + p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h2 + p + p + p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h2 + p + p + p + p + p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h3 + p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h1 
+{
     font-family: "ABeeZee", "Arial", sans-serif;
 }
 
-h2 {
+h2 
+{
     font-family: "ABeeZee", "Arial", sans-serif;
 }
 
-h3 {
+h3 
+{
     font-family: "ABeeZee", "Arial", sans-serif;
 }
 
-ol {
+ol 
+{
     font-family: "Carme", "Arial", sans-serif;
 }
 
-dt {
+dt 
+{
     font-family: "Carme", "Arial", sans-serif;
 }
 
-dd {
+dd 
+{
     font-family: "Carme", "Arial", sans-serif;
 }
 
-dd a {
+dd a 
+{
     font-family: "Carme", "Arial", sans-serif;
     font-size: 90%;
 }
 
-ul li {
+ul li 
+{
     font-family: "Carme", "Arial", sans-serif;
     font-size: 90%;
 }
 
-tr {
+tr 
+{
     font-family: "Carme", "Arial", sans-serif;
 }
 
-td {
+td 
+{
     font-family: "Carme", "Arial", sans-serif;
 }
 
-form {
+figure
+{
+    float: right;
+}
+figcaption
+{
     font-family: "Carme", "Arial", sans-serif;
 }
+
+/*delar upp blogginläggen*/
+#compose
+{
+    border-bottom: double;  
+    background-image: url(pics/creative-writing_32x32.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 16px;
+}
+
+#compose2
+{
+    border-bottom: double;  
+    background-image: url(pics/creative-writing_32x32.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 16px;
+}
+
+#compose3
+{
+    border-bottom: double;
+    background-image: url(pics/creative-writing_32x32.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 16px;
+    
+}
+
+
+
+
+
+
 
