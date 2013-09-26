@@ -229,10 +229,31 @@ figcaption
     background-repeat: no-repeat;
     background-position: top left;
     padding: 16px;
-    
 }
 
+#compose4
+{
+    border-bottom: double;
+    background-image: url(pics/creative-writing_32x32.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 16px;
+}
 
+/*.right 
+{
+    float: right;
+ 
+}*/
+
+.left
+{
+    float: left;
+    margin: 6px 25px 10px 6px;
+    background: #e8eae9;
+    border: 1px solid #c6c9cc;
+    padding: 4px;
+}
 
 
 
