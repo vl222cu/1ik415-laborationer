@@ -41,7 +41,7 @@
 #content 
 {
     width: 736px;
-    float: right;
+    float: left;
     padding: 10px;
     border: 1px solid black;
 }
@@ -60,13 +60,7 @@
 }
 
 /*markerar aktivt fält*/
-ul#navigation a#current 
-{
-    background: #676B6B;
-    color: #FFF;
-}
-
-ul#navigation a
+#navigation a
 {
     display: block;
     text-decoration: none;
@@ -78,10 +72,14 @@ ul#navigation a
     font-family: "Carme", "Arial", sans-serif;
 }
 
-ul#navigation a:hover
+a#current 
+{
+    background: #676B6B;
+}
+
+#navigation a:hover
 {
     background: #989E9E;
-    color: #FFF;
 }
 
 /*a {
@@ -106,38 +104,9 @@ a:hover, a:active
     /*background: #3E2C62;*/
 }
 
+
 /*typografi*/
-div > p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h1 + p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h2 + p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h2 + p + p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h2 + p + p + p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h2 + p + p + p + p + p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h3 + p 
+body
 {
     font-family: "Carme", "Arial", sans-serif;
 }
@@ -156,6 +125,29 @@ h3
 {
     font-family: "ABeeZee", "Arial", sans-serif;
 }
+
+/*
+div > p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h1 p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h2 p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+h3 p 
+{
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+
 
 ol 
 {
@@ -202,9 +194,10 @@ figcaption
 {
     font-family: "Carme", "Arial", sans-serif;
 }
+*/
 
 /*delar upp blogginläggen*/
-#compose
+.compose
 {
     border-bottom: double;  
     background-image: url(pics/creative-writing_32x32.png);
@@ -212,34 +205,6 @@ figcaption
     background-position: top left;
     padding: 16px;
 }
-
-#compose2
-{
-    border-bottom: double;  
-    background-image: url(pics/creative-writing_32x32.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-    padding: 16px;
-}
-
-#compose3
-{
-    border-bottom: double;
-    background-image: url(pics/creative-writing_32x32.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-    padding: 16px;
-}
-
-#compose4
-{
-    border-bottom: double;
-    background-image: url(pics/creative-writing_32x32.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-    padding: 16px;
-}
-
 /*.right 
 {
     float: right;
