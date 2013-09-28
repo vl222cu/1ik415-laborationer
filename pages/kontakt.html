@@ -28,40 +28,39 @@
     <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"
     method="post">
     
-    <fieldset id="form">
+    <fieldset class="form">
         <legend>Kontakt</legend>
-        <label>Ärendetyp</label>
+        <label>Ärendetyp</label><br />
         <select name="question">
         <option value="question" selected>Fråga</option>
         <option value="feedback">Synpunkter</option>
         <option value="misc">Övrigt</option>
     </select>
-        <p><label for="headline">Rubrik:</label>
-        <input type="text" id="headline" name="headline" /> </p>
-        <p><label>Ärende:</label>
-        <textarea name="matter" rows="3" cols="30"></textarea></p>
+        <p><label for="headline">Rubrik:</label><br />
+        <input type="text" id="headline" name="headline" class="input_text"/> </p>
+        <p><label>Ärende:</label><br />
+        <textarea name="matter" rows="5" cols="30" class="input_text"></textarea></p>
     </fieldset>
     
-    <fieldset>
+    <fieldset class="form">
         <legend>Hur vill du bli kontaktad?</legend>
-        <input type="Checkbox" name="contacted" value="email" /> Via email
-        <input type="Checkbox" name="contacted" value="phone" /> Via telefon
-        <input type="Checkbox" name="contacted" value="letter" /> Via brev
+        <input type="Checkbox" name="contacted" value="email" class="input_checkbox"/> Via email
+        <input type="Checkbox" name="contacted" value="phone"/> Via telefon
+        <input type="Checkbox" name="contacted" value="letter"/> Via brev
     </fieldset>
     
-    <fieldset>
+    <fieldset class="form">
         <legend>Dina kontaktuppgifter</legend>
-        <label for="name">Namn:</label>
-        <input type="text" id="name" name="name" />
-        <p><label for="address">Adress:</label>
-        <input type="text" id="address" name="address" /></p>
-        <label for="phonenumber">Telefon:</label>
-        <input type="text" id="phonenumber" name="telefon" />
-        <p><label for="mail">Email:</label>
-        <input type="text" id="mail" name="mail" /></p>
-    </fieldset>
-        <input type="submit" value="Skicka!"/>
-            
+        <label for="name">Namn:</label><br />
+        <input type="text" id="name" name="name" class="input_text"/>
+        <p><label for="address">Adress:</label><br />
+        <input type="text" id="address" name="address" class="input_text"/></p>
+        <label for="phonenumber">Telefon:</label><br />
+        <input type="text" id="phonenumber" name="telefon" class="input_text" />
+        <p><label for="mail">Email:</label><br />
+        <input type="text" id="mail" name="mail" class="input_text"/></p>
+        <input type="submit" value="Skicka!" class="input_send"/>
+    </fieldset>    
     </form>
     </div>
 
