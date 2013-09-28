@@ -7,6 +7,7 @@
   color: #3E2C62 (lila)
 */
 
+
 /*Layout*/
 #container 
 {
@@ -82,11 +83,6 @@ a#current
     background: #989E9E;
 }
 
-/*a {
-    padding: 1em  0;
-    position:relative;
-}*/
-
 a:link 
 {
     color: #6011F9;
@@ -104,97 +100,22 @@ a:hover, a:active
     /*background: #3E2C62;*/
 }
 
-
 /*typografi*/
 body
 {
     font-family: "Carme", "Arial", sans-serif;
-}
-
-h1 
-{
-    font-family: "ABeeZee", "Arial", sans-serif;
-}
-
-h2 
-{
-    font-family: "ABeeZee", "Arial", sans-serif;
-}
-
-h3 
-{
-    font-family: "ABeeZee", "Arial", sans-serif;
-}
-
-/*
-div > p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h1 p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h2 p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-h3 p 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-
-
-ol 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-dt 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-dd 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-dd a 
-{
-    font-family: "Carme", "Arial", sans-serif;
-    font-size: 90%;
-}
-
-ul li 
-{
-    font-family: "Carme", "Arial", sans-serif;
-    font-size: 90%;
-}
-
-tr 
-{
-    font-family: "Carme", "Arial", sans-serif;
-}
-
-td 
-{
-    font-family: "Carme", "Arial", sans-serif;
+    font-size: 14px;
 }
 
 figure
 {
     float: right;
 }
+
 figcaption
 {
     font-family: "Carme", "Arial", sans-serif;
 }
-*/
 
 /*delar upp blogginläggen*/
 .compose
@@ -205,11 +126,6 @@ figcaption
     background-position: top left;
     padding: 16px;
 }
-/*.right 
-{
-    float: right;
- 
-}*/
 
 .left
 {
@@ -230,7 +146,7 @@ figcaption
 
 .form legend
 {
-    /*padding: 2px 2px 2px 3px;*/
+    padding: 2px 2px 2px 3px;
     letter-spacing: 3px; 
     border: 1px solid;
     margin-left: -30px;
@@ -256,4 +172,5 @@ figcaption
     background: #474A4A;
     color: #FFF;
 }
+
 
