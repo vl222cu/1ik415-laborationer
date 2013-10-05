@@ -11,9 +11,9 @@
 /*Layout*/
 #container 
 {
-    width: 958px;
+    width: 960px;
     margin: 0 auto;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     /*border: 1px solid black;*/
 }
 
@@ -117,6 +117,7 @@ body
     font-family: "Carme", "Arial", sans-serif;
     font-size: 14px;
     line-height: 23px;
+    text-align: left;
 }
 
 h2
@@ -135,7 +136,7 @@ figcaption
     font-family: "Carme", "Arial", sans-serif;
 }
 
-/*delar upp blogginläggen*/
+/*Delar upp blogginläggen*/
 .compose
 {
     border-bottom: double;  
@@ -153,7 +154,7 @@ figcaption
     border: 1px solid #c6c9cc;
     padding: 4px;
 }
-
+/*stilat formuläret*/
 .form
 {
     width: 400px;
@@ -192,6 +193,7 @@ figcaption
     color: #FFF;
 }
 
+/*Användning av sprites*/
 #sprites-list a
 {
     width: 24px;
@@ -238,5 +240,77 @@ figcaption
  background-position: 0 264px;  
 }
 
+@media only screen and (max-width: 480px)
+{
 
+#container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#header 
+{
+    width: 99%;
+    height: 99%;
+    margin-bottom: 3%;
+    float: left;
+    background-size: auto;
+    background-position: left;
+}
+
+#content
+{
+    width: 100%;
+    margin-left: 0;
+    padding: 7px;
+}
+
+#navigation
+{
+    width: 100%;
+    margin-top: -10%;
+}
+    
+#menu li
+{
+    display: inline;
+}
+
+#menu a
+{
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#footer 
+{
+    float: left;
+    width: 106%;
+}
+ 
+#header h1
+{
+   font-size: 90%; 
+}
+
+figure, figcaption
+{
+    float: left;
+}
+
+img
+{
+    width: 95%;
+    float: left;
+}
+
+video
+{
+    width: 100%;
+}
+    
+}
 
