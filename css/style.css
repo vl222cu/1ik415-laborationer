@@ -261,7 +261,7 @@ figcaption
 #header 
 {
     width: 99%;
-    height: 99%;
+    height: 100%;
     margin-bottom: 2%;
     float: left;
     background-size: auto;
@@ -302,7 +302,7 @@ figcaption
 
 body
 {
-   font-size: 80%; 
+    font-size: 73%;
 }
 
 figure, figcaption
@@ -336,10 +336,10 @@ video
 
 .form legend
 {
-    padding: 1% 2%;
+    padding: 0 2%;
     letter-spacing: 0; 
     margin: -2%;
-    font-size: 75%;
+    font-size: 70%;
 }
 
 .input_text
@@ -347,5 +347,11 @@ video
     width: 70%;
 }
 
-
+#table thead tr th, tbody tr td, tfoot tr td
+{
+    font-size: 80%;
 }
+}
+
+
+
