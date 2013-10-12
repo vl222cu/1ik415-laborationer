@@ -193,6 +193,16 @@ figcaption
     color: #FFF;
 }
 
+#hcard-Vivi-Lam
+{
+width:250px;
+height:70px;
+padding: 20px;
+background: #474A4A;
+color: #FFF;
+box-shadow: 10px 10px 5px #888888;
+}
+
 /*Användning av sprites*/
 #sprites-list a
 {
