@@ -50,7 +50,7 @@
     text-align: center; 
     background: #474A4A;
     color: #FFF;
-    font-family: "Carme", "Arial", sans-serif;
+    font-family: "Carme", "Arial", "sans-serif";
 }
 
 .clear 
@@ -114,7 +114,7 @@ a:hover, a:active
 /*typografi*/
 body
 {
-    font-family: "Carme", "Arial", sans-serif;
+    font-family: "Carme", "Arial", "sans-serif";
     font-size: 14px;
     line-height: 23px;
     text-align: left;
@@ -197,6 +197,7 @@ figcaption
 {
 width:250px;
 height:70px;
+margin-left: 10px;
 padding: 20px;
 background: #474A4A;
 color: #FFF;
