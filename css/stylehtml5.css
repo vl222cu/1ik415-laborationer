@@ -1,0 +1,191 @@
+#container 
+{
+    width: 958px;
+    margin: 0 auto;
+}
+
+#mainheader
+{
+    display: block;
+    width: 938px;
+    height: 140px;
+    padding: 10px;
+    color: #FFF;
+    background-image: url(../pics/vivislogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 958px 157px;
+}
+
+nav
+{
+    display: block;
+    width: 960px;
+    float: left;
+    margin-top: -58px;
+}
+
+main
+{
+    display: block;
+    width: 936px;
+    float: left;
+    padding: 10px;
+    margin-top: -2px;
+    border: 1px solid black;
+}
+
+footer
+{
+    display: block;
+    width: 958px;
+    text-align: center; 
+    background: #474A4A;
+    color: #FFF;
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+.clear 
+{
+    clear: both;
+}
+
+/*markerar aktivt fält*/
+#mainnavigation
+{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+#mainnavigation li
+{
+    display: inline;
+}
+
+#mainnavigation a
+{
+    display: block;
+    float: left;
+    text-decoration: none;
+    background: #474A4A;
+    color: #FFF;
+    margin-left: 5px;
+    padding: 10px 15px;
+    border: 1px solid #FFF;
+    width: 150px;
+    font-family: "Carme", "Arial", sans-serif;
+}
+
+a#current 
+{
+    background: #676B6B;
+}
+
+#mainnavigation a:hover
+{
+    background: #7D7B7A;
+}
+
+a:link 
+{
+    color: #6011F9;
+}
+
+a:visited 
+{
+    color: #2D1164;
+}
+
+a:hover, a:active 
+{
+    color:#FFF;
+    background: #9FA4BF;
+    /*background: #3E2C62;*/
+}
+
+#sprites-list a
+{
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url(pics/sprite.png);
+    text-indent: -9999px;
+}
+
+#sprites-list li
+{
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#home-icon 
+{
+ background-position: 0 312px;   
+}
+
+#home-icon:hover
+{
+ background-position: 0 0;   
+}
+
+#pic-icon 
+{
+ background-position: 0 120px;   
+}
+
+#pic-icon:hover
+{
+ background-position: 0 168px;  
+}
+
+#hammer-icon 
+{
+ background-position: 0 216px;   
+}
+
+#hammer-icon:hover
+{
+ background-position: 0 264px;  
+}
+
+#letter-icon 
+{
+ background-position: 0 24px;   
+}
+#letter-icon:hover
+{
+ background-position: 0 72px;  
+}
+
+body
+{
+    font-family: "Carme", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+}
+
+h2
+{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.compose
+{
+    border-bottom: double;  
+    background-image: url(pics/creative-writing_32x32.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 16px;
+}
+
+.left
+{
+    float: left;
+    margin: 6px 25px 10px 6px;
+    background: #e8eae9;
+    border: 1px solid #c6c9cc;
+    padding: 4px;
+}

@@ -3,31 +3,42 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width:device-width, initial-scale=1.0" />
     <title>Projekt Vivi</title>
-    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="css/stylehtml5.css" media="screen">
     <link rel="stylesheet" href="css/print.css" media="print">
-    <link rel="stylesheet" href="css/responsive.css" media="only screen and (max-width:480px)">
+    <link rel="stylesheet" href="css/resphtml5.css" media="only screen and (max-width:480px)">
     <link rel="shortcut icon" href="pics/favicon.ico">
     <link rel="apple-touch-icon" href="pics/touchicon.png">
     <link href='//fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>
+    <script>
+        document.createElement("header");
+        document.createElement("hgroup");
+        document.createElement("footer");
+        document.createElement("article");
+        document.createElement("main");
+        document.createElement("section");
+        document.createElement("nav");
+        document.createElement("aside");
+        document.createElement("address");
+    </script>
     </head>
     <body>
     <div id="container">
-    <div id="header">
+    <header id="mainheader">
     <!-- <img id="vivislogo" src="pics/vivislogo.png" alt= "min logo"/> -->
     <h1>Take a walk in my shoes!</h1>
     <p>Välkommen till min blogg!</p>
-    </div>
+    </header>
     
-    <div id="navigation">
-    <ul id="menu">
+    <nav>
+    <ul id="mainnavigation">
         <li><a href="#Projektvivi" id="current">Start</a></li>
         <li><a href="pages/presentation.html">Presentation</a></li>
         <li><a href="pages/laborationer.html">Laborationer</a></li>
         <li><a href="pages/kontakt.html">Kontakt</a></li>
     </ul>
-    </div>
+    </nav>
     
-    <div id="content">
+    <main>
     <div>
     <ul id="sprites-list">
         <li><a id="pic-icon" href="pages/presentation.html#picsvivi">Presentation</a></li>
@@ -36,18 +47,18 @@
     </ul>
     </div>
     
-    <div class="compose">
-    <h2 id="pen">Take a walk in my shoes!</h2>
-    <p>Datum 2013-09-12</p>
+    <article class="compose">
+    <header id="articleheader"><h2 id="pen">Take a walk in my shoes!</h2>
+    <p>Datum 2013-09-12</p></header>
     <p>Välkommen till min nya blogg! Här kommer ni kunna följa mig under
     utbildningens gång och få en inblick på mina laborationer och tankar
     kring dom.</p>
     <p>Ha det gott till nästa gång!</p>
-    </div>
+    </article>
     
-    <div class="compose">
-    <h2 id="konstverk">Mitt konstverk</h2>
-    <p>Datum 2013-09-14</p>
+    <article class="compose">
+    <header id="articleheader"><h2 id="konstverk">Mitt konstverk</h2>
+    <p>Datum 2013-09-14</p></header>
     <p>Då har jag kommit en bit på vägen vad gäller laboration 1. Har gått
     igenom en hel del listor och länkar och nu även länkar med bilder i olika
     format.
@@ -59,22 +70,22 @@
     id="stars"/></p>
     <p>Då är det bara att kämpa på med övriga tre uppgifter som är kvar innan 
     jag blir klar med hela laboration 1. Here we go!</p>
-    </div>
+    </article>
     
-    <div class="compose">
-    <h2 id="systerdöttrar">Dags för videotaggen!</h2>
-    <p>Datum 2013-09-15</p>
+    <article class="compose">
+    <header id="articleheader"><h2 id="systerdöttrar">Dags för videotaggen!</h2>
+    <p>Datum 2013-09-15</p></header>
     <p>Här kommer ett härligt filmklipp som min svåger har skapat på mina 
     systerdöttrar. Enjoy!</p>
     <video width="430" height="250" controls>
     <source src="videos/Systerdöttrar.mp4" type="video/mp4" id="video">
     <p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
     </video>
-    </div>
+    </article>
     
-    <div class="compose">
-    <h2>En bit på vägen</h2>
-    <p>Datum 2013-09-25</p>
+    <article class="compose">
+    <header id="articleheader"><h2>En bit på vägen</h2>
+    <p>Datum 2013-09-25</p><header>
     <img class="left" src="pics/Gili.jpg" alt="Gili Trawangan, en av tre 
     öar som tillhör Bali, Indonesien" width="160" height="225"/>
     <p>Är nu inne på laboration 2 och har lärt mig en hel del nya saker gällande
@@ -94,17 +105,19 @@
     gjort ASAP. Nu bör det finnas en del text på detta blogginlägg så att jag
     kan baka in bilden. En hel del svammel men men, lite roligare än Lorem ipsum
     kanske? :)</p>
-    </div>
-    <div class="compose">
-    <h2>Äntligen klar med copycat!</h2> 
-    <p>Datum 2013-10-02</p>
+    </article>
+    
+    <article class="compose">
+    <header id="articleheader"><h2>Äntligen klar med copycat!</h2> 
+    <p>Datum 2013-10-02</p></header>
     <p>Efter ett hårt tvådagarsarbete är jag nu äntligen klar med uppgiften copycat. 
     <a href="//c9.io/vl222cu/uppgift-3-3/workspace/index.html#">Här</a> är slutresultatet. 
     Blev rätt bra ändå till slut. Då kör vi på nästa uppgift!</p>
-    </div>
-    <div class="compose">
-    <h2>Responsiv design</h2> 
-    <p>Datum 2013-10-06</p>
+    </article>
+    
+    <article class="compose">
+    <header id="articleheader"><h2>Responsiv design</h2> 
+    <p>Datum 2013-10-06</p></header>
     <p><img class="left" src="pics/mobilversion.PNG" alt="mobilversion efter att 
     ha lagt till responsiv design på min sida" width="160" height="230"/>
     Då min sida är väldig enkel har det inte vart svårt att besluta om hur
@@ -121,14 +134,11 @@
     vänster finns bilden på slutresultatet och sidan såg bäst ut på Opera än i 
     Safari i iPhonen. Kul att även ha fått lära sig att skapa responsiv webdesign!
     </p>
-    </div>
-    </div>
+    </article>
+    </main>
 
-<div id="footer" class="clear">Copyright &copy: Vivi Lam 2013</div>
+<footer id="footer" class="clear">Copyright &copy: Vivi Lam 2013</footer>
 </div>
-
-
-
 
     </body>
     

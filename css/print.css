@@ -1,0 +1,27 @@
+body, .form, .form legend
+{ 
+  color : #000; 
+  background : #FFF; 
+  font-family : Georgia, "Times New Roman", Times, serif;
+  font-size : 14pt; 
+}
+
+a 
+{ 
+  text-decoration : underline; 
+  color : #0000FF; 
+}
+
+dd a:link:after, dd a:visited:after { content:" [" attr(href) "] "; }
+
+#footer 
+{
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    font-size: 14pt;
+    background: #FFF;
+    color: #000;
+   }
+
+#navigation, #header, figure, figcaption, .left, #video, #stars { 
+  display : none; 
+}
