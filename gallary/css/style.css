@@ -1,0 +1,142 @@
+#container
+{
+    width: 960px;
+    margin: auto;
+}
+
+#images
+{
+    font-family: "Swanky and Moo Moo", "Arial", "sans-serif";
+    width: 960px;
+    margin-top: 70px;
+}
+
+#images a:after 
+{
+    content: attr(title);
+}
+
+/* Standardrotation på alla bilder*/
+#images a 
+{
+    color: #000;
+    background-color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    -webkit-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+ 
+/* Roterar alla jämna bilder 2deg */
+
+#images a:nth-child(even) 
+{
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+/*Roterar var tredje bild 7deg*/
+
+#images a:nth-child(3n) 
+{
+    -webkit-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    transform: rotate(7deg);
+    position: relative;
+    top: -10px;
+}
+
+/*Roterar var femte bild 5deg*/
+
+#images a:nth-child(5n) 
+{
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+    position: relative;
+    right: 5px;
+}
+ 
+#images a:nth-child(9n) 
+{
+    position: relative;
+    top: 8px;
+    right: 10px;
+}
+ 
+
+#images a:nth-child(14n)
+{
+    position: relative;
+    top: 3px;
+    left: -5px;
+}
+
+/* Bilderna skalas om vid hover och focus*/
+
+#images a:hover 
+{
+    -webkit-transform: scale(1.50);
+    -ms-transform: scale(1.50);
+    -o-transform: scale(1.50);
+    -moz-transform: scale(1.50);
+    transform: scale(1.50);
+    position: relative;
+    z-index: 5;
+}
+
+#images a:focus
+{
+    -webkit-transform: scale(1.50);
+    -ms-transform: scale(1.50);
+    -o-transform: scale(1.50);
+    -moz-transform: scale(1.50);
+    transform: scale(1.50);
+    position: relative;
+    z-index: 5;
+}
+
+
+/* Bestämmer hastigheten på transformationen på bilderna*/
+
+#images a
+{
+    -webkit-transition:width 2s;
+    -ms-transition: width 2s;
+    -o-transition: width 2s;
+    -moz-transition: width 2s;
+    transition: width 2s;
+    width: 200px;
+}
+
+/* Bestämmer skuggningen på bilderna*/
+
+#images a 
+{
+    -webkit-box-shadow: 10px 10px 5px #888888;
+    -moz-box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #888888;
+}
+ 
+
+#images a:hover, a:focus
+{
+    -webkit-box-shadow: 10px 10px 5px #F9F9F9;
+    -moz-box-shadow: 10px 10px 5px #F9F9F9;
+    box-shadow: 10px 10px 5px #F9F9F9;
+}
+
