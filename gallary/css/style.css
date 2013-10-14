@@ -4,6 +4,11 @@
     margin: auto;
 }
 
+body
+{
+    background: url(darkwood.png);
+}
+
 #images
 {
     font-family: "Swanky and Moo Moo", "Arial", "sans-serif";
