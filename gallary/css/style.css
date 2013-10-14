@@ -55,11 +55,11 @@ h1
 
 #images a:nth-child(even) 
 {
-    -webkit-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    -o-transform: rotate(2deg);
-    -moz-transform: rotate(2deg);
-    transform: rotate(2deg);
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
 }
 
 /*Roterar var tredje bild 7deg*/
@@ -80,11 +80,11 @@ h1
 
 #images a:nth-child(5n) 
 {
-    -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    transform: rotate(-6deg);
     position: relative;
     right: 5px;
     color: #A30000;
@@ -161,3 +161,16 @@ h1
 box-shadow: 2px 2px 5px 7px rgba(31,31,31,0.1);
 }
 
+.clear 
+{
+    clear: both;
+}
+
+footer
+{
+    font-family: "Swanky and Moo Moo", "Arial", "sans-serif";
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}

@@ -67,3 +67,8 @@ video
 {
     display: none;
 }
+
+.bubble
+{
+    background: #888888;
+}
