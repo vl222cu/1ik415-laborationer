@@ -6,14 +6,25 @@
 
 body
 {
-    background: url(darkwood.png);
+    background: url(wood.jpg);
+}
+
+h1
+{
+    font-family: "Swanky and Moo Moo", "Arial", "sans-serif";
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: -10px;
+    text-align: center;
 }
 
 #images
 {
     font-family: "Swanky and Moo Moo", "Arial", "sans-serif";
     width: 960px;
-    margin-top: 70px;
+    margin-top: 0;
+    margin-left: 50px;
+    
 }
 
 #images a:after 
@@ -32,11 +43,12 @@ body
     float: left;
     padding: 10px;
     font-size: 20px;
-    -webkit-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    -o-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+    font-weight: bold;
+    -webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
  
 /* Roterar alla jämna bilder 2deg */
@@ -60,6 +72,7 @@ body
     -moz-transform: rotate(7deg);
     transform: rotate(7deg);
     position: relative;
+    right: 5px;
     top: -10px;
 }
 
@@ -67,13 +80,14 @@ body
 
 #images a:nth-child(5n) 
 {
-    -webkit-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    transform: rotate(5deg);
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
     position: relative;
     right: 5px;
+    color: #A30000;
 }
  
 #images a:nth-child(9n) 
@@ -81,14 +95,16 @@ body
     position: relative;
     top: 8px;
     right: 10px;
+    color: #120DB2;
 }
  
 
-#images a:nth-child(14n)
+#images a:nth-child(6n)
 {
     position: relative;
     top: 3px;
-    left: -5px;
+    left: -10px;
+    color: #120DB2;
 }
 
 /* Bilderna skalas om vid hover och focus*/
@@ -140,8 +156,8 @@ body
 
 #images a:hover, a:focus
 {
-    -webkit-box-shadow: 10px 10px 5px #F9F9F9;
-    -moz-box-shadow: 10px 10px 5px #F9F9F9;
-    box-shadow: 10px 10px 5px #F9F9F9;
+    -moz-box-shadow: 2px 2px 5px 710px rgba(31,31,31,0.1);
+-webkit-box-shadow: 2px 2px 5px 7px rgba(31,31,31,0.1);
+box-shadow: 2px 2px 5px 7px rgba(31,31,31,0.1);
 }
 
