@@ -44,14 +44,15 @@ h1
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    -webkit-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    transform: rotate(-3deg);
+    width: 200px;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
  
-/* Roterar alla jämna bilder 2deg */
+/* Roterar alla jämna bilder 3deg */
 
 #images a:nth-child(even) 
 {
@@ -80,30 +81,29 @@ h1
 
 #images a:nth-child(5n) 
 {
-    -webkit-transform: rotate(-6deg);
-    -ms-transform: rotate(-6deg);
-    -o-transform: rotate(-6deg);
-    -moz-transform: rotate(-6deg);
-    transform: rotate(-6deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
     position: relative;
     right: 5px;
     color: #A30000;
 }
  
-#images a:nth-child(9n) 
-{
-    position: relative;
-    top: 8px;
-    right: 10px;
-    color: #120DB2;
-}
- 
-
 #images a:nth-child(6n)
 {
     position: relative;
     top: 3px;
     left: -10px;
+    color: #120DB2;
+}
+
+#images a:nth-child(9n) 
+{
+    position: relative;
+    top: 8px;
+    right: 10px;
     color: #120DB2;
 }
 
@@ -118,6 +118,7 @@ h1
     transform: scale(1.50);
     position: relative;
     z-index: 5;
+    width: 200px;
 }
 
 #images a:focus
@@ -129,6 +130,7 @@ h1
     transform: scale(1.50);
     position: relative;
     z-index: 5;
+    width: 200px;
 }
 
 
@@ -136,12 +138,11 @@ h1
 
 #images a
 {
-    -webkit-transition:width 2s;
-    -ms-transition: width 2s;
-    -o-transition: width 2s;
-    -moz-transition: width 2s;
-    transition: width 2s;
-    width: 200px;
+    -webkit-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    -moz-transition: all 2s;
+    transition: all 2s;
 }
 
 /* Bestämmer skuggningen på bilderna*/
